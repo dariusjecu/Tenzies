@@ -57,3 +57,28 @@ button{
   border: none;
   border-radius: 10px;
 }
+
+/*-------------------------Mobile-------------------------*/
+
+@media screen and (max-width: 600px){
+  body{
+    font-size: 0.8rem;
+  }
+  .container{
+    width: 80%;
+  }
+  .game{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*-------------------------Tablet-------------------------*/
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+  .container{
+    width: 80%;
+  }
+  .game{
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
